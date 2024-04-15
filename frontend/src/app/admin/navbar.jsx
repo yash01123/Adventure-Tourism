@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const AdminNavbar = () => {
+export const Nav = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
-    <div>AdminNavbar</div>
-  )
-}
-
-export default AdminNavbar;
+    <div >
+    </div>
+  );
+};
